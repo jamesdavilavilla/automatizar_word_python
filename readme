@@ -1,0 +1,33 @@
+# Automatizar Word con Python
+
+Este proyecto genera documentos Word personalizados usando datos de un archivo Excel y una plantilla Word.
+
+## Requisitos
+
+- Python 3
+- pandas
+- docxtpl
+
+Instala las dependencias con:
+
+```sh
+pip install pandas docxtpl
+```
+
+## Uso
+
+1. Coloca los datos de los alumnos en `Alumnos.xlsx`.
+2. Personaliza la plantilla en `plantilla.docx`.
+3. Ejecuta el script:
+
+```sh
+python main.py
+```
+
+Se generará un archivo Word para cada alumno con sus notas.
+
+## Archivos
+
+- `main.py`: Script principal.
+- `Alumnos.xlsx`: Datos de los alumnos.
+- `plantilla.docx
